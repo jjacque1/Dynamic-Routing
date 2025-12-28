@@ -6,6 +6,10 @@ Dynamic Routing & Protected Routes (React Router)
 
 ![alt text](dynamicRouting.png)
 
+## Deployed Link
+
+https://dynamic-routing-git-main-jackson-jacques-projects.vercel.app/
+
 ## How to Use App
 
 - cd into your project folder in VS Code
