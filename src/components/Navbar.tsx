@@ -12,18 +12,18 @@ export default function Navbar() {
 
   return (
     <header style={{ display: "flex", gap: 12, alignItems: "center" }}>
-      <Link to="/" style={{ fontWeight: 700 }}>
-        Landing Page
+      <Link className={"navlink"} to="/" style={{ fontWeight: 700 }}>
+        Home
       </Link>
 
       <nav>
-        <NavLink to="/blog">Blog</NavLink>{" "}
+        <NavLink className={"navlink"} to="/blog">Blogs</NavLink>{" "}
         {!isAuthenticated ? (
           <NavLink to="/login">Log In</NavLink>
         ) : (
           <>
             <NavLink to="/admin">Admin</NavLink>{" "}
-            <button type="button" onClick={handleLogout}></button>
+            <button className={"navlink"} type="button" onClick={handleLogout}>Log out</button>
           </>
         )}
       </nav>

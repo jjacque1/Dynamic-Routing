@@ -3,6 +3,7 @@ export default function Admin() {
     <div>
       <h2>Admin</h2>
       <p>Welcome to the Admin Dashboard.</p>
+      <p>Admin post is now available, go to blogs to view.</p>
     </div>
   );
 }

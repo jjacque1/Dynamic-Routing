@@ -16,7 +16,7 @@ export default function Login() {
   return (
     <div>
       <h2>Login</h2>
-      <button type="button" onClick={handleLogin}>
+      <button className={"navlink"} type="button" onClick={handleLogin}>
         Log In
       </button>
     </div>

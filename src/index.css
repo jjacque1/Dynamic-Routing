@@ -25,7 +25,8 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  justify-content: center;
+  align-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -35,17 +36,26 @@ h1 {
   line-height: 1.1;
 }
 
-button {
+.navlink {
   border-radius: 8px;
-  border: 1px solid transparent;
+  border: 1px solid black;
   padding: 0.6em 1.2em;
+  margin: 4px;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #ddd;
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
+.btn {
+  margin: 8px;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+
 button:hover {
   border-color: #646cff;
 }
@@ -53,6 +63,8 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+
 
 @media (prefers-color-scheme: light) {
   :root {
